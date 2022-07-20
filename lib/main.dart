@@ -12,7 +12,7 @@ const flutterDevAccountId = 'UCPyso_RkkrkDjWAXx51smkg';
 const youTubeApiKey = 'AIzaSyDvSwUJzBC0dtpw2Ky4Yc9dKq_K4bF-TUk';
 
 void main() {
-  if (youTubeApiKey == 'AIzaSyDvSwUJzBC0dtpw2Ky4Yc9dKq_K4bF-TUk') {
+  if (youTubeApiKey == 'AIzaNotAnApiKey') {
     print('youTubeApiKey yapılandırılmamış.');
     exit(1);
   }

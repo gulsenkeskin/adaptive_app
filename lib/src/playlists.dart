@@ -12,7 +12,7 @@ class Playlists extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('FlutterDev Playlists'),
+        title: const Text('Gülsen Playlists'),
       ),
       body: Consumer<FlutterDevPlaylists>(
         builder: (context, flutterDev, child) {
