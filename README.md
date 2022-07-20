@@ -2,7 +2,6 @@
   Flutter app that adapts to the platform that it is running on, be that Android, iOS, the web, Windows, macOS, or Linux.
   
   <img src='assets/2.gif'  width="340" height="680">   
-  <img src='assets/1.gif'  width="340" height="680">   
 
 
 
