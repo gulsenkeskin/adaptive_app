@@ -9,10 +9,10 @@ import 'src/playlists.dart';
 
 const flutterDevAccountId = 'UCPyso_RkkrkDjWAXx51smkg';
 
-const youTubeApiKey = 'AIzaSyCdJ19XCJSfkL0N1OEzX5lAc9d994Xr-lE';
+const youTubeApiKey = 'AIzaSyDvSwUJzBC0dtpw2Ky4Yc9dKq_K4bF-TUk';
 
 void main() {
-  if (youTubeApiKey == 'AIzaSyCdJ19XCJSfkL0N1OEzX5lAc9d994Xr-lE') {
+  if (youTubeApiKey == 'AIzaSyDvSwUJzBC0dtpw2Ky4Yc9dKq_K4bF-TUk') {
     print('youTubeApiKey yapılandırılmamış.');
     exit(1);
   }
