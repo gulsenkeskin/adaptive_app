@@ -1,13 +1,11 @@
 import 'dart:io';
 
-import 'package:adaptive_app/src/app_state.dart';
-import 'package:adaptive_app/src/playlists.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-import 'package:flutter/material.dart';import 'package:provider/provider.dart';
-
+import 'src/app_state.dart';
+import 'src/playlists.dart';
 
 const flutterDevAccountId = 'UCPyso_RkkrkDjWAXx51smkg';
 
@@ -18,6 +16,7 @@ void main() {
     print('youTubeApiKey yapılandırılmamış.');
     exit(1);
   }
+
   runApp(ChangeNotifierProvider<FlutterDevPlaylists>(
     create: (context) => FlutterDevPlaylists(
       flutterDevAccountId: flutterDevAccountId,
@@ -42,7 +41,6 @@ class PlaylistsApp extends StatelessWidget {
     );
   }
 }
-
 // class MyApp extends StatelessWidget {
 //   const MyApp({Key? key}) : super(key: key);
 //
