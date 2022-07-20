@@ -45,12 +45,13 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+    <!-- https://pub.dev/packages/url_launcher#ios -->
 	<key>LSApplicationQueriesSchemes</key>
-    <array>
-            <string>https</string>
-            <string>http</string>
-            <string>tel</string>
-            <string>mailto</string>
-    </array>
+	<array>
+		<string>https</string>
+		<string>http</string>
+		<string>tel</string>
+		<string>mailto</string>
+	</array>
 </dict>
 </plist>
